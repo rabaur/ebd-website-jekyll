@@ -23,7 +23,9 @@
             <button class="dropbtn">Exercises</button>
             <div class="dropdown-content">
               {%- for exercise in exercises -%}
-                <a href="{{ exercise.url | relative_url }}">{{ exercise.title | escape }}</a>
+                {%- if exercise.publish -%}
+                  <a href="{{ exercise.url | relative_url }}">{{ exercise.title | escape }}</a>
+                {%- endif -%}
               {%- endfor -%}
             </div>
           </div>

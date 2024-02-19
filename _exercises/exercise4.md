@@ -3,6 +3,7 @@ layout: exercise
 title: Exercise 4
 date:   2024-02-14 15:48:01 +0100
 categories: jekyll update
+publish: false
 ---
 
 # Agent-based simulations to analyse design tradeoffs
