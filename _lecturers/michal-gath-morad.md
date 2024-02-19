@@ -1,4 +1,4 @@
 ---
 name: Assist. Prof. Dr. Michal Gath-Morad
-image: raphael-baur.jpg
+image: michal-gath-morad.jpg
 ---

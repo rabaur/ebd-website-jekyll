@@ -4,8 +4,14 @@ layout: base
 {%- assign lecturers = site.lecturers -%}
 {%- for lecturer in lecturers -%}
 <div class="lecturer-container">
-    {% assign source_image_path = "assets/images/lecturers/" | append: lecturer.image %}
-    <img class="lecturer-image" src="{{ source_image_path }}" alt="{{ lecturer.name }}">
+    {% assign image_path = "assets/images/lecturers/placeholder.jpg" %}
+    {% assign search_for_path = "assets/images/lecturers/" | append: lecturer.image %}
+    {% for file in site.static_files %}
+        {% if file.path contains search_for_path %}
+            {% assign image_path = search_for_path %}
+        {% endif %}
+    {% endfor %}
+    <img class="lecturer-image" src="{{ image_path }}" alt="{{ lecturer.name }}">
     <div class="lecturer-content">
         <h1>{{ lecturer.name }}</h1>
         <p>{{ content }}</p>
