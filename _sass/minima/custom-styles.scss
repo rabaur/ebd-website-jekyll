@@ -54,3 +54,25 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+/* Renders a lecturer */
+.lecturer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "lecturer-image lecturer-content";
+}
+
+/* Renders the lecturer image as a circle */
+.lecturer-image {
+    grid-area: lecturer-image;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+/* Renders the lecturer content */
+.lecturer-content {
+    grid-area: lecturer-content;
+    margin: 10px;
+}

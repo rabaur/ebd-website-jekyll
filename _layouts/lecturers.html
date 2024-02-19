@@ -1,0 +1,14 @@
+---
+layout: base
+---
+{%- assign lecturers = site.lecturers -%}
+{%- for lecturer in lecturers -%}
+<div class="lecturer-container">
+    {% assign source_image_path = "assets/images/lecturers/" | append: lecturer.image %}
+    <img class="lecturer-image" src="{{ source_image_path }}" alt="{{ lecturer.name }}">
+    <div class="lecturer-content">
+        <h1>{{ lecturer.name }}</h1>
+        <p>{{ content }}</p>
+    </div>
+</div>
+{%- endfor -%}
