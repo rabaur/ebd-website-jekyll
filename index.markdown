@@ -19,8 +19,8 @@ At the same time, the field of cognitive science, supported by empirical methods
 | Date       | Lecture Content | Lecturers | Exercises |
 |------------|-----------------|-----------|-----------|
 | 2024-02-21 | Semester Kickoff - Introduction | Michal Gath-Morad | - |
-| 2024-02-28 | Offices typologies (talk name TBD) | Christian Veddeler | - |
-| 2024-03-06 | City typologies (talk name TBD) | Laura Narvaez Zertuche | Handout Exercise 1 |
+| 2024-02-28 | **Talk**: Unfinished Work. The Office | Christian Veddeler | - |
+| 2024-03-06 | **Talk**: TBD | Laura Narvaez Zertuche | Handout Exercise 1 |
 | 2024-03-13 | Presentations: Exercise 1 | Michal Gath-Morad | Submission Exercise 1 |
 | 2024-03-20 | Seminarwoche (no lecture) | - | - |
 | 2024-03-27 | Hospital Typologies: Topological Analysis | Raphaël Baur | Handout Exercise 2 |

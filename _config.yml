@@ -22,7 +22,7 @@ title: Evidence-Based Design in Architecture
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Evidence-Based Design in Architecture | FS24
-baseurl: "/ebd-website-jekyll" # the subpath of your site, e.g. /blog
+baseurl: "/ebd-website" # the subpath of your site, e.g. /blog
 url: "https://rabaur.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll

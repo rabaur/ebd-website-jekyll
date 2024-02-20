@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-{%- assign lecturers = site.lecturers -%}
+{%- assign lecturers = site.lecturers | sort: "order" -%}
 {%- for lecturer in lecturers -%}
 <div class="lecturer-container">
     {% assign image_path = "assets/images/lecturers/placeholder.jpg" %}
@@ -14,7 +14,19 @@ layout: base
     <img class="lecturer-image" src="{{ image_path }}" alt="{{ lecturer.name }}">
     <div class="lecturer-content">
         <h1>{{ lecturer.name }}</h1>
-        <p>{{ content }}</p>
+        <div class="lecturer-institution-logo-container">
+            {% for institution-logo in lecturer.institution-logos %}
+                {% assign logo_path = "assets/images/logos/placeholder.jpg" %}
+                {% assign search_for_path = "assets/images/logos/" | append: institution-logo %}
+                {% for file in site.static_files %}
+                    {% if file.path contains search_for_path %}
+                        {% assign logo_path = search_for_path %}
+                    {% endif %}
+                {% endfor %}
+                <img class="lecturer-institution-logo" src="{{ logo_path }}" alt="{{ lecturer.name }} logo">
+            {% endfor %}
+        </div>
+        <p class="lecturer-bio">{{ lecturer.content }}</p>
     </div>
 </div>
 {%- endfor -%}

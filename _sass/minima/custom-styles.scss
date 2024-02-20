@@ -14,14 +14,22 @@
     outline: none;
     color: black;
     padding: 5px 10px;
+    margin-right: 10px;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
 }
 
-/* Add a red background color to navbar links on hover */
+/* Add a background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #ddd;
+    &:visited {
+        color: $link-visited-color;
+    }
+    
+    &:hover {
+        color: $link-hover-color;
+        text-decoration: underline;
+    }
 }
 
 /* Dropdown content (hidden by default) */
@@ -58,7 +66,7 @@
 /* Renders a lecturer */
 .lecturer-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 120px 1fr;
     grid-template-areas: "lecturer-image lecturer-content";
 }
 
@@ -75,4 +83,24 @@
 .lecturer-content {
     grid-area: lecturer-content;
     margin: 10px;
+}
+
+/* Contains lecturer institution logos */
+.lecturer-institution-logo-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Renders a lecturer institution logo */
+.lecturer-institution-logo {
+    height: 2vh;
+    max-width: 5vw;
+    padding-right: 10px;
+}
+
+.footer-logo {
+    height: 3vh;
+    max-width: 5vw;
+    padding-right: 10px;
 }
