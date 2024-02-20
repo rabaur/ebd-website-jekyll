@@ -28,6 +28,7 @@ At the same time, the field of cognitive science, supported by empirical methods
 | 2024-04-10 | Presentations: Exercise 2 | Raphaël Baur | Submission Exercise 2 |
 | 2024-04-17 | City typologies: Cognitive Walkthrough | Raphaël Baur | Handout Exercise 3 |
 | 2024-04-24 | Presentations: Exercise 3 | Laura Narvaez Zertuche | Submission Exercise 3 |
-| 2024-05-02 | Office Typologies: Agent-Based Models | Raphaël Baur | Handout Exercise 4 |
-| 2024-05-09 | Presentations: Exercise 4 | Christian Veddeler | Submission Exercise 4 |
+| 2024-05-01 | Labour day (no classes) | - | - |
+| 2024-05-08 | Office Typologies: Agent-Based Models | Raphaël Baur | Handout Exercise 4 |
+| 2024-05-15 | Presentations: Exercise 4 | Christian Veddeler | Submission Exercise 4 |
 
