@@ -23,7 +23,6 @@ ul,
 figure {
   margin: 0;
   padding: 0;
-
 }
 
 
@@ -90,6 +89,7 @@ main {
 img {
   max-width: 100%;
   vertical-align: middle;
+  box-shadow: $box-shadow;
 }
 
 
@@ -99,10 +99,13 @@ img {
  */
 figure>img {
   display: block;
+  box-shadow: $box-shadow;
 }
 
 figcaption {
   font-size: $small-font-size;
+  // center the caption below the image
+  text-align: center;
 }
 
 
