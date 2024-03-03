@@ -287,32 +287,21 @@ table {
   text-align: $table-text-align;
   color: $table-text-color;
   border-collapse: collapse;
+  font-size: 0.8 * $base-font-size;
 
   tr {
-    &:first-child {
-      border-bottom: 2px solid black;
-      /* Make the first horizontal line thicker */
-    }
-
-    &:not(:first-child) {
-      border-bottom: 1px solid black;
-      /* Make the remaining horizontal lines thinner */
-    }
+    border-bottom: 1px solid black;
   }
 
   th,
   td {
-    padding: ($spacing-unit * 33.3333333333 * .01) ($spacing-unit * .5);
+    border: none;
+    padding: ($spacing-unit * 33.3333333333 * .005) ($spacing-unit * .5);
   }
 
   th {
-    border: none;
-    /* Remove border for th to eliminate vertical lines */
-  }
-
-  td {
-    border: none;
-    /* Remove border for td to eliminate vertical lines */
+    border-bottom: 2px solid black;
+    font-size: $base-font-size;
   }
 
   @include media-query($on-laptop) {
