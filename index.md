@@ -19,8 +19,8 @@ At the same time, the field of cognitive science, supported by empirical methods
 | Date       | Lecture Content | Lecturers | Exercises | Recording | Slides |
 |------------|-----------------|-----------|-----------|-----------|
 | 2024-02-21 | Semester Kickoff - Introduction | Michal Gath-Morad | - | [Recording](https://polybox.ethz.ch/index.php/s/U96Pl6ArqP8ST1P) | [Slides](https://polybox.ethz.ch/index.php/s/V6sv1I3FcjaYKSp) |
-| 2024-02-28 | **Talk**: Unfinished Work. The Office | Christian Veddeler | - | - | - |
-| 2024-03-06 | **Talk**: TBD | Laura Narvaez Zertuche | Handout Exercise 1 | - | - |
+| 2024-02-28 | **Talk**: Unfinished Work. The Office | Christian Veddeler | - | - | [Slides](https://polybox.ethz.ch/index.php/s/lyGr8vN8l74cjzy) |
+| 2024-03-06 | **Talk**: Neuroscience for Cities: Urban experience and design | Laura Narvaez Zertuche | Handout Exercise 1 | - | - |
 | 2024-03-13 | Presentations: Exercise 1 | Michal Gath-Morad | Submission Exercise 1 | - | - |
 | 2024-03-20 | Seminarwoche (no lecture) | - | - | - | - |
 | 2024-03-27 | Hospital Typologies: Topological Analysis | Raphaël Baur | Handout Exercise 2 | - | - |
