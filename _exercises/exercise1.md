@@ -41,8 +41,8 @@ The following questions should guide your reading and presentation preparation:
 
 ## 1.2 Evidence-Based Design Cards (20 points)
 Based on your reading, prepare two pairs of cards for our **Evidence-Based Design for Healthcare Card Deck**. 
-The instructions and template for making the card (as well as an example of two cards) are in the Miro board (link provided via email).
-You can see two screenshots from the Miroboard below. 
+The instructions and template for making the card (as well as an example of two cards) are in the Miro board.
+You can see two screenshots from the Miro board below. 
 
 ![An example pair of cards](../assets/images/ExampleCard.jpg)
 *An example pair of cards*
