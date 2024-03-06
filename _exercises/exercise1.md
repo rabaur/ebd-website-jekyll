@@ -9,11 +9,11 @@ publish: true
 # Reading on Evidence-Based Design for Healthcare
 
 ## Submission Details 
-- **Submission date**: 27.09.2022, 23:59 CET
+- **Submission date**: 13.03.2024, 17:59 CET
 - **Submission materials**:
   - A presentation on the paper (10 slides, 5 minutes max). File name: Your group members last name delimited by `_`. Example: If your group consists of _A. Einstein_, _M. Curie_ → `einstein_curie.pdf`. [Upload link](https://polybox.ethz.ch/index.php/s/GNCvC6Vo6zLpJbI)
-  - Evidence-Based Design cards. [Miro link](../404.html)
-- **Presentation date**: 28.09.2022 in class
+  - Evidence-Based Design cards. [Miro link](https://polybox.ethz.ch/index.php/s/3WihQVlWgbSG1w0)
+- **Presentation date**: 13.03.2024 in class
 - **Grading**: Total of 100 points, 80 points for the presentation, 20 points for the cards. The presentation will be evaluated according to the following criteria:
   - Clarity of the presentation
   - Depth of the analysis
