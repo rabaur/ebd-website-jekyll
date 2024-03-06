@@ -27,7 +27,7 @@ publish: false
 ## 1.1 Reading Assignment (80 points)
 
 In this exercise, you will have the chance to work in groups of 2 students.
-You can choose a paper and group up with a classmate in [this spreadsheet](https://docs.google.com/spreadsheets/d/175ehkJNYXqFPz4UF6UUVIDh-_1v7HxVeQbLfqCwNX78/edit?usp=sharing). The papers are classified by building type that they investigate. Note that a paper can only be chosen once by one group.
+You can choose a paper and group up with a classmate in [this spreadsheet](https://polybox.ethz.ch/index.php/s/3WihQVlWgbSG1w0). The papers are classified by building type that they investigate. Note that a paper can only be chosen once by one group.
 **You are also allowed to suggest a paper that is not on the list, but please get in touch with the instructors before doing so.**
 If you choose your own paper, please add a row to the spreadsheet, analogous to the other papers, and fill in the details of the paper.
 
