@@ -133,7 +133,7 @@ Although not always possible, try to infer as many of these functions from your 
 >[!IMPORTANT]
 >**Output from this section (25 points)**: Assign all functions as described. Make a screenshot of the Control Window, and log the values of the three metrics. Make a screenshot of the layout in the Rhino view.
 
-### 3.1 Perform Design Intervention (40 points)
+## 3.1 Perform Design Intervention (40 points)
 Now that you have established the performance of the base layout, you can plan and execute the intervention.
 The goal is to improve at least **2 out of the 3 measures** while retaining the same capacity (same number of patient beds) and functions. An improvement counts as the following:
 - **ICD**: A decrease in ICD
