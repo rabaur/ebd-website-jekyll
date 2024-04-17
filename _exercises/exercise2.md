@@ -27,7 +27,7 @@ During this exercise, you can work in groups of at most **two** people.
 - **Submission date**: 17.04.2024, 17:59 CET
 - **Submission materials**:
   - A presentation on this exercise (max. 10 slides, max. 5 minutes, exceeding this will result in grade penalty). File name: Your group member's last name delimited by `_`. Example: If your group consists of _A. Einstein_, _M. Curie_ → `einstein_curie.pdf`. [Upload link](https://polybox.ethz.ch/index.php/s/JM2OE5ScX8YzOwS)
-  - The Rhino file with your base layout and intervention. [Upload Link](hhttps://polybox.ethz.ch/index.php/s/dDhETfq4UF3IGNj)
+  - The Rhino file with your base layout and intervention. [Upload Link](https://polybox.ethz.ch/index.php/s/dDhETfq4UF3IGNj)
 - **Presentation date**: TBD
 - **Grading**: Total of 100 points (25 bonus points):
     - 25 points for the line drawing of the hospital layout
