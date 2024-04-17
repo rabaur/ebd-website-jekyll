@@ -18,7 +18,7 @@ layout: home
 | 2024-03-20 |    5 | Seminarwoche (no lecture) | - | - | - | - |
 | 2024-03-27 |    6 | Hospital Typologies: Topological Analysis | Raphaël Baur | - | [Recording](https://polybox.ethz.ch/index.php/s/HYa1zXnRDw3WNOV) | [Slides](https://polybox.ethz.ch/index.php/s/O3jvhytVmULPHre) |
 | 2024-04-03 |    7 | Easter Break (no lecture) | - | - | - | - |
-| 2024-04-10 |    8 | Office Hour: Exercise 2 | Raphaël Baur | - | - | - |
+| 2024-04-10 |    8 | Office Hour: Exercise 2 | Raphaël Baur | - | [Recording](https://polybox.ethz.ch/index.php/s/2qbK94jpZL2qWvN) | - |
 | 2024-04-17 |    9 | City typologies: Cognitive Walkthrough | Laura Narvaez Zertuche & Raphaël Baur | Submission Exercise 2 | - | - |
 | 2024-04-24 |   10 | Office Hour: Exercise 3 | Raphaël Baur | Handout Exercise 3  | - | - |
 | 2024-05-01 |   11 | Labour day (no classes) | - | - | - | - |
