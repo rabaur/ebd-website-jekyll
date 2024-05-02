@@ -35,7 +35,7 @@ The **goal** of this exercise is to analyze **how** the **configuration** of dif
 
 1. Open GitHub Desktop and [pull the latest changes from the repository](https://docs.github.com/en/desktop/working-with-your-remote-repository-on-github-or-github-enterprise/syncing-your-branch-in-github-desktop#pulling-to-your-local-branch-from-the-remote). **Only follow the part "Pulling to your local branch from the remote"**.
 2. Follow step 3. from the the tutorial in the [README.md of the toolkit](https://github.com/rabaur/EBD-Toolkit/blob/main/README.md).
-3. Familiarize yourself with the toolkit and import your geometry by following the [tutorial](https://github.com/rabaur/EBD-Toolkit/blob/main/VirtualWalkthrough.md) for the virtual walkthrough.
+3. Familiarize yourself with the toolkit and import your geometry by following the [tutorial](https://github.com/rabaur/EBD-Toolkit/blob/main/docs/virtual_walkthrough.md) for the virtual walkthrough.
 
 # Part 3: Conducting the VR Experiment
 
