@@ -1,0 +1,26 @@
+// general variables
+$border-radius: 8px;
+$link-visited-color: hotpink;
+$link-hover-color: hotpink;
+
+// light theme variables
+$light-background-color: #FFFFFF;
+$light-foreground-color-100: rgba(0, 0, 0, 0.04);
+$light-foreground-color-200: rgba(0, 0, 0, 0.08);
+$light-foreground-color-300: rgba(0, 0, 0, 0.12);
+$light-foreground-color-400: rgba(0, 0, 0, 0.26);
+$light-foreground-color-500: rgba(0, 0, 0, 0.54);
+$light-text-color: rgba(0, 0, 0, 0.87);
+$light-primary-color: #CE5235;
+$light-success-color: #99d69c;
+
+// dark theme variables
+$dark-background-color: #181818;
+$dark-foreground-color-100: rgba(255, 255, 255, 0.08);
+$dark-foreground-color-200: rgba(255, 255, 255, 0.16);
+$dark-foreground-color-300: rgba(255, 255, 255, 0.12);
+$dark-foreground-color-400: rgba(255, 255, 255, 0.3);
+$dark-foreground-color-500: #FFF;
+$dark-text-color: #efefef;
+$dark-primary-color: rgb(107, 66, 232);
+$dark-success-color: #357237;

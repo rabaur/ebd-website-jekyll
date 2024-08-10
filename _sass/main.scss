@@ -4,12 +4,12 @@
 
 $base-font-family: "Inter", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif !default;
 $code-font-family: "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
-$base-font-size:   16px !default;
-$base-font-weight: 400 !default;
+$base-font-size:   1rem !default;
+$base-font-weight: 300 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
-$spacing-unit:     30px !default;
+$spacing-unit:     8px !default;
 
 $table-text-align: left !default;
 
@@ -43,8 +43,9 @@ $on-large:         $on-laptop !default;
 
 // Import pre-styling-overrides hook and style-partials.
 @import
-  "minima/custom-variables", // Hook to override predefined variables.
-  "minima/base",             // Defines element resets.
-  "minima/layout",           // Defines structure and style based on CSS selectors.
-  "minima/custom-styles"     // Hook to override existing styles.
+  "variables",       // Hook to override predefined variables.
+  "themes",
+  "reset",            // Defines element resets.
+  "layout",           // Defines structure and style based on CSS selectors.
+  "custom-styles"     // Hook to override existing styles.
 ;
