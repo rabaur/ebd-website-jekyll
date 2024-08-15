@@ -1,0 +1,27 @@
+<div class="lectures">
+    {%- assign lectures = site.lectures -%}
+    {%- for lecture in lectures -%}
+    <div class="lecture">
+        <div class="index">
+            {{ 1 }}
+        </div>
+        <div class="date">
+            {{ lecture.date | date: "%d.%m.%Y"}}
+        </div>
+        <div class="content">
+            {{ lecture.content }}
+        </div>
+        <div class="lecturers">
+            {%- for lecturer in lecture.lecturers -%}
+            <div class="lecturer">
+                {{ lecturer }}
+            </div>
+            {%- endfor -%}
+        </div>
+        <div class="interactables">
+            <button>Slides</button>
+            <button>Recording</button>
+        </div>
+    </div>
+    {%- endfor -%}
+</div>

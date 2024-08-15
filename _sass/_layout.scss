@@ -34,15 +34,18 @@ h1 {
   border-bottom: var(--separator);
   display: flex;
   justify-content: space-between;
+
   .site-title {
     font-weight: 900;
     text-decoration: none;
     color: var(--primary-color)
   }
+
   .site-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
     .item {
       margin-left: $spacing-unit;
       margin-right: $spacing-unit;
@@ -69,6 +72,7 @@ h1 {
   flex-direction: column;
   border-right: var(--separator);
   padding-right: 2 * $spacing-unit;
+
   h1 {
     text-transform: none;
     color: var(--text-color);
@@ -77,6 +81,7 @@ h1 {
     font-weight: 900;
     margin-bottom: $base-font-size;
   }
+
   h2 {
     font-weight: 400;
   }
@@ -84,8 +89,62 @@ h1 {
 
 .about-container {
   padding-left: 2 * $spacing-unit;
+  overflow:scroll
 }
 
 .page-link {
   color: var(--primary-color)
+}
+
+.lectures {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.75 * $base-font-size;
+  font-weight: 400;
+
+  .lecture {
+    display: grid;
+    grid-template-columns: auto auto 1fr 1fr auto;
+    grid-template-rows: 1fr;
+    grid-template-areas: "index date content lecturers buttons";
+    margin-top: $spacing-unit;
+
+    .date {
+      grid-area: date;
+      font-weight: 2 * $base-font-weight;
+      margin-left: $spacing-unit
+    }
+    
+    .content {
+      grid-area: content;
+      margin-left: $spacing-unit;
+    }
+
+    .index {
+      background-color: var(--primary-color);
+      grid-area: index;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: $base-font-size;
+      font-weight: 700;
+      width: 3 * $spacing-unit;
+      height: 3 * $spacing-unit;
+      border-radius: 3 * $spacing-unit;
+      color: var(--background-color)
+    }
+
+    .lecturers {
+      display: flex;
+      margin-left: $spacing-unit;
+      grid-area: lecturers;
+      flex-direction: row;
+    }
+
+    .interactables {
+      display: flex;
+      grid-area: buttons;
+      flex-direction: row;
+    }
+  }
 }
