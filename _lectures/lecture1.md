@@ -1,10 +1,10 @@
 ---
 date: 2024-09-18 00:00:00
 topic: Introductory Lecture
-lecturers: [Raphaël Baur, Bo Pan, Christoph Hölscher]
+lecturers: [Raphaël Baur, Yuqin Zhong]
 type: lecture
-recording:
+recording: somelink
 slides:
 ---
 
-Test test
+**Part 1**: Introduction. **Part 2**: Talk

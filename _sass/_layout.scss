@@ -15,7 +15,7 @@ h1 {
 }
 
 .page-width-manager {
-  width: 60%;
+  width: 40%;
 }
 
 @media (max-width: 768px) {
@@ -139,12 +139,28 @@ h1 {
       margin-left: $spacing-unit;
       grid-area: lecturers;
       flex-direction: row;
+      overflow: scroll;
+      .lecturer {
+        margin-left: $spacing-unit
+      }
     }
 
     .interactables {
       display: flex;
       grid-area: buttons;
       flex-direction: row;
+      .active {
+        fill: var(--primary-color);
+        margin-left: $spacing-unit;
+      }
+      .active:hover {
+        fill: var(--primary-color-light);
+        cursor: pointer
+      }
+      .disabled {
+        margin-left: $spacing-unit;
+        fill: var(--foreground-color-400)
+      }
     }
   }
 }

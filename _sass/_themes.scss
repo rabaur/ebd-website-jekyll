@@ -9,6 +9,7 @@
     --foreground-color-500: #{$light-foreground-color-500};
     --text-color: #{$light-text-color};
     --primary-color: #{$light-primary-color};
+    --primary-color-light: #{$light-primary-color-light};
     --border-color: #{$light-background-color};
     --success-color: #{$light-success-color};
     --box-shadow-100: 0 0 10px 0 rgba(0, 0, 0, 0.2);
@@ -24,6 +25,7 @@
     --foreground-color-500: #{$dark-foreground-color-500};
     --text-color: #{$dark-text-color};
     --primary-color: #{$dark-primary-color};
+    --primary-color-light: #{$dark-primary-color-light};
     --success-color: #{$dark-success-color};
     --border-color: #{$dark-foreground-color-200};
     --box-shadow-100: none;

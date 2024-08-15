@@ -19,8 +19,28 @@
             {%- endfor -%}
         </div>
         <div class="interactables">
-            <button>Slides</button>
-            <button>Recording</button>
+            {%- if lecture.recording -%}
+            <div class="active">
+                <a href="{{ lecture.recording }}">
+                    {% include icons/recording.svg %}
+                </a>
+            </div>
+            {%- else -%}
+            <div class="disabled">
+                {% include icons/recording.svg %}
+            </div>
+            {%- endif -%}
+            {%- if lecture.slides -%}
+            <div class="active">
+                <a target={{ lecture.slides }}>
+                    {% include icons/slides.svg %}
+                </a>
+            </div>
+            {%- else -%}
+            <div class="disabled">
+                {% include icons/slides.svg %}
+            </div>
+            {%- endif -%}
         </div>
     </div>
     {%- endfor -%}
