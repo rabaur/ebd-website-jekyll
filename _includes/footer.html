@@ -1,7 +1,7 @@
 <footer class="site-footer">
   <div class="associate-logo-wrapper">
     {%- for associate in site.associated -%}
-    {% assign logo_path = "assets/images/logos/placeholder.jpg" %}
+    {% assign logo_path = "/assets/images/logos/placeholder.jpg" %}
     {% assign search_for_path = "assets/images/logos/" | append: associate.logo %}
     {% for file in site.static_files %}
     {% if file.path contains search_for_path %}
@@ -9,7 +9,7 @@
     {% endif %}
     {% endfor %}
     <a href={{ associate.link }} target="_blank">
-      <img class="associate-logo" src="{{ logo_path }}" alt="{{ lecturer.name }} logo">
+      <img class="associate-logo" src="{{ logo_path | relative_url }}" alt="{{ associate.name }} logo">
     </a>
     {%- endfor -%}
   </div>
