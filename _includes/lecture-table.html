@@ -3,7 +3,7 @@
     {%- for lecture in lectures -%}
     <div class="lecture">
         <div class="index">
-            {{ 1 }}
+            {{ forloop.index }}
         </div>
         <div class="date">
             {{ lecture.date | date: "%d.%m.%Y"}}

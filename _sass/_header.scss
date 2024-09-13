@@ -1,0 +1,30 @@
+.site-header {
+    position: fixed;
+    width: inherit;
+    height: $header-height;
+    font-size: 1.5 * $base-font-size;
+    background-color: var(--background-color);
+    border-bottom: var(--separator);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    .site-title {
+      font-weight: 900;
+      text-decoration: none;
+      color: var(--primary-color)
+    }
+  
+    .site-nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  
+      .item {
+        margin-left: $spacing-unit;
+        margin-right: $spacing-unit;
+        text-transform: uppercase;
+        text-decoration: underline;
+      }
+    }
+  }

@@ -1,0 +1,10 @@
+.site-footer {
+    width: 100%;
+    height: $header-height;
+    font-size: 1.5 * $base-font-size;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: var(--separator);
+}
