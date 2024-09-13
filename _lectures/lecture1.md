@@ -1,10 +1,12 @@
 ---
 date: 2024-09-18 00:00:00
 topic: Introductory Lecture
-lecturers: [Raphaël Baur, Yuqin Zhong]
+lecturers: [Michal Gath-Morad, Yuqin Zhong]
 type: lecture
-recording: somelink
+recording:
 slides:
 ---
 
-**Part 1**: Introduction. **Part 2**: Talk
+_Part 1_ **Lecture** Introduction.
+
+_Part 2_ **Talk** by Yuqin Zhong

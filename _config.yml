@@ -21,7 +21,7 @@
 title: Evidence-Based Design in Architecture
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Evidence-Based Design in Architecture | FS24
+  EBD HS24
 baseurl: "/ebd-website" # the subpath of your site, e.g. /blog
 url: "https://rabaur.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -58,5 +58,7 @@ collections:
   lecturers:
     output: true
   lectures:
+    output: true
+  associated:
     output: true
   

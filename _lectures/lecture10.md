@@ -6,3 +6,5 @@ type: lecture
 recording:
 slides:
 ---
+
+**Talk** by Laura Narvaez Zertuche

@@ -51,8 +51,8 @@ h1 {
   h1 {
     text-transform: none;
     color: var(--text-color);
-    font-size: 4 * $base-font-size;
-    line-height: 4 * $base-font-size;
+    font-size: 3 * $base-font-size;
+    line-height: 3 * $base-font-size;
     font-weight: 900;
     margin-bottom: $base-font-size;
   }
@@ -68,74 +68,8 @@ h1 {
 }
 
 .page-link {
-  color: var(--primary-color)
-}
-
-.lectures {
-  display: flex;
-  flex-direction: column;
-  font-size: 0.75 * $base-font-size;
-  font-weight: 400;
-
-  .lecture {
-    display: grid;
-    grid-template-columns: auto auto 1fr 1fr auto;
-    grid-template-rows: 1fr;
-    grid-template-areas: "index date content lecturers buttons";
-    margin-top: $spacing-unit;
-
-    .date {
-      grid-area: date;
-      font-weight: 2 * $base-font-weight;
-      margin-left: $spacing-unit
-    }
-    
-    .content {
-      grid-area: content;
-      margin-left: $spacing-unit;
-    }
-
-    .index {
-      background-color: var(--primary-color);
-      grid-area: index;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: $base-font-size;
-      font-weight: 700;
-      width: 3 * $spacing-unit;
-      height: 3 * $spacing-unit;
-      border-radius: 3 * $spacing-unit;
-      color: var(--background-color)
-    }
-
-    .lecturers {
-      display: flex;
-      margin-left: $spacing-unit;
-      grid-area: lecturers;
-      flex-direction: row;
-      overflow: scroll;
-      .lecturer {
-        margin-left: $spacing-unit
-      }
-    }
-
-    .interactables {
-      display: flex;
-      grid-area: buttons;
-      flex-direction: row;
-      .active {
-        fill: var(--primary-color);
-        margin-left: $spacing-unit;
-      }
-      .active:hover {
-        fill: var(--primary-color-light);
-        cursor: pointer
-      }
-      .disabled {
-        margin-left: $spacing-unit;
-        fill: var(--foreground-color-400)
-      }
-    }
-  }
+  color: var(--primary-color);
+  font-weight: $base-font-weight;
+  text-transform: uppercase;
+  text-decoration: underline;
 }

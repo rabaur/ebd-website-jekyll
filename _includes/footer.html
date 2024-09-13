@@ -1,9 +1,17 @@
 <footer class="site-footer">
-  <data class="u-url" href="{{ " /" | relative_url }}"></data>
-  <div class="footer-col-wrapper">
-    <div class="footer-col">
-      <p>{{ site.description | escape }}</p>
-    </div>
+  <div class="associate-logo-wrapper">
+    {%- for associate in site.associated -%}
+    {% assign logo_path = "assets/images/logos/placeholder.jpg" %}
+    {% assign search_for_path = "assets/images/logos/" | append: associate.logo %}
+    {% for file in site.static_files %}
+    {% if file.path contains search_for_path %}
+    {% assign logo_path = search_for_path %}
+    {% endif %}
+    {% endfor %}
+    <a href={{ associate.link }} target="_blank">
+      <img class="associate-logo" src="{{ logo_path }}" alt="{{ lecturer.name }} logo">
+    </a>
+    {%- endfor -%}
   </div>
-
+  <p>{{ site.description | escape }}</p>
 </footer>

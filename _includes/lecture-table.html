@@ -1,8 +1,13 @@
 <div class="lectures">
     {%- assign lectures = site.lectures -%}
     {%- for lecture in lectures -%}
-    <div class="lecture">
-        <div class="index">
+    {% assign no_class_style = "" %}
+    {% if lecture.no_class %}
+    {% assign no_class_style = "no-lecture" %}
+    {% endif %}
+    <div class="lecture {{ no_class_style }}">
+
+        <div class="index {{ no_class_style }}">
             {{ forloop.index }}
         </div>
         <div class="date">
@@ -11,35 +16,42 @@
         <div class="content">
             {{ lecture.content }}
         </div>
-        <div class="lecturers">
+        <!-- <div class="lecturers">
             {%- for lecturer in lecture.lecturers -%}
             <div class="lecturer">
                 {{ lecturer }}
             </div>
             {%- endfor -%}
-        </div>
+        </div> -->
+        <div class="exercise">
+            {%- if lecture.exercise -%}
+            {{ lecture.exercise }}
+            {% endif %}
+        </div> 
         <div class="interactables">
-            {%- if lecture.recording -%}
-            <div class="active">
-                <a href="{{ lecture.recording }}">
+            {%- if lecture.no_class != true -%}
+                {%- if lecture.recording -%}
+                <div class="active">
+                    <a href="{{ lecture.recording }}">
+                        {% include icons/recording.svg %}
+                    </a>
+                </div>
+                {%- else -%}
+                <div class="disabled">
                     {% include icons/recording.svg %}
-                </a>
-            </div>
-            {%- else -%}
-            <div class="disabled">
-                {% include icons/recording.svg %}
-            </div>
-            {%- endif -%}
-            {%- if lecture.slides -%}
-            <div class="active">
-                <a target={{ lecture.slides }}>
+                </div>
+                {%- endif -%}
+                {%- if lecture.slides -%}
+                <div class="active">
+                    <a target={{ lecture.slides }}>
+                        {% include icons/slides.svg %}
+                    </a>
+                </div>
+                {%- else -%}
+                <div class="disabled">
                     {% include icons/slides.svg %}
-                </a>
-            </div>
-            {%- else -%}
-            <div class="disabled">
-                {% include icons/slides.svg %}
-            </div>
+                </div>
+                {%- endif -%}
             {%- endif -%}
         </div>
     </div>
