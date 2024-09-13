@@ -10,6 +10,7 @@
     --text-color: #{$light-text-color};
     --primary-color: #{$light-primary-color};
     --primary-color-light: #{$light-primary-color-light};
+    --primary-color-dark: #{$light-primary-color-dark};
     --border-color: #{$light-background-color};
     --success-color: #{$light-success-color};
     --box-shadow-100: 0 0 10px 0 rgba(0, 0, 0, 0.2);
@@ -26,6 +27,7 @@
     --text-color: #{$dark-text-color};
     --primary-color: #{$dark-primary-color};
     --primary-color-light: #{$dark-primary-color-light};
+    --primary-color-dark: #{$dark-primary-color-dark};
     --success-color: #{$dark-success-color};
     --border-color: #{$dark-foreground-color-200};
     --box-shadow-100: none;

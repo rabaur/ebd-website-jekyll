@@ -9,15 +9,15 @@ publish: true
 # Topological Analysis of Hospital Layouts
 The goal of this exercise will be to design an intervention in an existing hospital design such that it will improve at least two of the measures presented in of week 6.
 
-**Circulation complexity: Inter-Connected Density (ICD)**, (O’Neill, 1991): ICD is the mean number of potential paths from any decision point within the floor plan. 
-> Lower  ICD is correlated with better wayfinding 
+>**Circulation complexity: Inter-Connected Density (ICD)**, (O’Neill, 1991): ICD is the mean number of potential paths from any decision point within the floor plan. 
+_Lower  ICD is correlated with better wayfinding_
 
-**Nursing routine efficiency: Yale Traffic Index (YTI)** (Thompson and Goldin, 1975)
+>**Nursing routine efficiency: Yale Traffic Index (YTI)** (Thompson and Goldin, 1975)
 The relative trip frequencies of selected traffic links multiplied by the distance between links. 
-> Lower YTI is associated with more efficient nursing routines 
+_Lower YTI is associated with more efficient nursing routines_
 
-**Quality of Care:  Spatial Communication Index (SCI)** (Pachilova and Sailer, 2020): SCI is the accumulated visibility for key traffic links in a ward divided by the number of beds. 
-> Higher SCI is correlated with better quality of care 
+>**Quality of Care:  Spatial Communication Index (SCI)** (Pachilova and Sailer, 2020): SCI is the accumulated visibility for key traffic links in a ward divided by the number of beds. 
+_Higher SCI is correlated with better quality of care_
 
 
 To do so, you will use the EBD-Toolkit.
@@ -36,49 +36,48 @@ During this exercise, you can work in groups of at most **two** people.
     - 10 points for the presentation
     - 25 bonus points for the optional task
 
-# 1 Getting Started
+## 1 Getting Started
 
-## 1.0 Getting Windows
+### 1.0 Getting Windows
 This exercise will require you to work on a Computer with a Windows operating system. If you do not currently have access to such a machine, please consider the following options:
 1. **Pair up with a student with a Windows Machine**: This exercise can be solved in groups. The easiest way to work around the Windows issue is to work in a group with a student who has access to a Windows machine and solve the exercise together.
 2. **BootCamp**: If your machine is a MacBook and older than 2020 (so it does not yet have an M1 or M2 processor), you can install Windows on an additional partition using [BootCamp](https://support.apple.com/en-us/102622).
 
-## 1.1 Installing Rhino 7
+### 1.1 Installing Rhino 7
 For the duration of this course, you will obtain a license for _Rhino 7_, a CAD software. If you already own Rhino 6 or Rhino 7 or later, you can skip this part.
 
->[!NOTE] 
 >Even though at the time of writing this tutorial, a newer version of Rhino exists, the toolkit has only been tested for Rhino 7, so we cannot guarantee its functionality for newer versions of Rhino
 
 Be sure to be on your Windows operating system. Visit the [Rhino Download Page](https://www.rhino3d.com/download/) and choose _Additional Downloads (bottom right)_ > _Rhino 7_ > _Create Account and Login_.
 
->[!IMPORTANT] 
 >Remember the email address you have used, as you need it to obtain a license for Rhino 7. 
 
-After creating the account, send an email with the header _Rhino License_ to rabaur@ethz.ch. You will then receive an invitation via email to join the team _COG ETHZ_. Follow the instructions in that email to obtain the license.
+After creating the account, send an email with the header _Rhino License_ to `rabaur@ethz.ch`. You will then receive an invitation via email to join the team _COG ETHZ_. Follow the instructions in that email to obtain the license.
 After logging in, choosing the language, and accepting the license agreement, you can download the installation executable and run it once the download has been completed.
 First, you will be prompted to enter the email address you have previously used the create your Rhino account. If you have already accepted the invitation to the _COG ETHZ_ team, Rhino will automatically find your license and you can start up Rhino.
 
-## 1.2 Installing the EBD-Toolkit
+### 1.2 Installing the EBD-Toolkit
 Now you will install the files that you will need to solve this exercise. To do so, we need software that manages the version of these files, i.e., knows which version of the files you currently have and whether there is a newer version available. This software is called _GitHub Desktop_.
 
-### 1.2.1 Installing GitHub Desktop
+#### 1.2.1 Installing GitHub Desktop
 GitHub Desktop is a user interface for the version-control tool _git_. We will use _git_ to download the latest version of the EBD-Toolkit and get the newest updates later.
->[!TIP]
+
 > We only need to understand one single action: _pull_. Pull means: "Get the latest changes of the files, compare them to my current state, and integrate changes if there are any".
 
 Visit [GitHub Desktop's website](https://desktop.github.com/) and click the _Download for Windows_ button. Install and open the tool. Upon opening, you will be prompted to create or sign into your GitHub account. Please create one if you have not already done so.
 
-### 1.2.2 Installing the EBD-Toolkit Project
+#### 1.2.2 Installing the EBD-Toolkit Project
 In GitHub Desktop, choose _File > Clone repository... > URL_ and enter the following URL: `https://github.com/rabaur/EBD-Toolkit.git`. Below, you will see where the toolkit will be saved on your system. Then, click _clone_. This will download the latest version of the files.
 After the download, you can verify that the project has been saved to the indicated path.
->[!NOTE]
+
+
 >There will be many more files than you will need in this exercise. The other files are important for later exercises (which is neat, you won't need to do this process twice). The relevant files for exercise 2 are located at `EBD-Toolkit/rhino_grasshopper_files`
 
 At `EBD-Toolkit/rhino_grasshopper_files` you can find two files:
 1. `layout_analysis_example.3dm`: This is a Rhino file, indicated by the extension `3dm`. It contains definitions for geometry. It will serve as an example in this exercise.
 2. `layout_analysis.gh`: This is a file for [Grasshopper](https://www.grasshopper3d.com/), which allows for algorithmic modeling in Rhino, indicated by the extension `gh`. This file contains the recipe for computing spatial and topological measures on top of the geometry provided in the `3dm` files.
 
-## 1.3 Installing Grasshopper Plugins
+### 1.3 Installing Grasshopper Plugins
 Hang in there, you nearly made it! This last step will be about installing the required plugins for Grasshopper.
 First, open Rhino, and then open the example file by choosing _Files_ > _Open..._ > `<your_path>/EBD-Toolkit/rhino_grasshopper_files/layout_analysis_example.3dm`.
 
@@ -94,7 +93,6 @@ Your screen should now look something like this:
 
 We can now try to load the Grasshopper file by choosing (in the new window) _Files_ > _Open Document..._ > `<your_path>/EBD-Toolkit/rhino_grasshopper_files/layout_analysis.gh`. However, you will most likely see a prompt warning you that several components have not been found. Don't worry, we are going to install them now.
 
->[!WARNING]
 >Do **not** press _Download and Install_. This method has proven to be very unreliable, and more often than not leads to version conflicts between packages. Instead, you can install the packages manually.
 
 The basic workflow of manually installing a Grasshopper Plugin is always the same:
@@ -112,27 +110,24 @@ You will need to install 4 plugins by following the description above.
 - [Shortest Walk GH](https://www.food4rhino.com/en/app/shortest-walk-gh)(Version 0.9.0014)
 - [Decoding Spaces](https://toolbox.decodingspaces.net/download-decodingspaces-toolbox/): Please follow the installation procedure detailed on this website.
 
-# 2 Line Drawing of a Hospital Typology (25 points)
+## 2 Line Drawing of a Hospital Typology (25 points)
 The first task of this exercise will be to choose a hospital layout. You can choose any layout of a hospital ward (even if it is not realized yet), but as an inspiration, some classical ones can be found in the lecture notes of lecture week 6.
 Once you have chosen a layout, please indicate the **building name**, **location**, **year of completion**, **architecture company** (if you can find out), and the names of your two group members in [this spreadsheet](https://docs.google.com/spreadsheets/d/1dzDzM0Xx3sM-ijmQHuQg438_4OrOFLIDdjyxTM_oeg4/edit?usp=sharing). It is first-come-first-serve: I a group has already chosen a layout, please search for a new one.
 
->[!NOTE]
 >Remember, the goal of this exercise will be to _improve_ the layout according to performance measures presented in the lecture. When choosing a layout, please choose one that is also interesting for you to work on and one that sparks an idea for improvement.
 
 Once you have chosen and obtained a reference image of the layout, you will model this layout as a line drawing in Rhino. To import and properly scale a reference, please watch the following tutorial.
 
->[!NOTE]
 >For your layout, create a **new** Rhino file, do not use `layout_analysis_example.3dm` for this task. To do so, open Rhino, and choose _File_ > _New_ and then choose the template _Large Objects - Meters_. The reason for this is that the `layout_analysis_example.3dm` file will be overwritten in case we need to update the toolkit.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sNSvc23sOOI?si=BreYmRXO_fAzmgE-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Then, you can use Rhino's _Polyline_ and _Line_ tools to draw the floorplan lines. Use simple lines (no curves) to trace the walls of the floorplan. Make sure that lines that are supposed to connect are indeed connecting (watertight).
 
->[!IMPORTANT]
 >**Output from this section (25 points):** Select a typology and describe its characteristics. Properly scale the reference image. Create a line drawing of the walls of the layout.
 
-# 3 Design Intervention
-## 3.1 Compute the performance of the base layout (25 points)
+## 3 Design Intervention
+### 3.1 Compute the performance of the base layout (25 points)
 With your base design established, you will now use the EBD Toolkit to compute performance measures.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/95ZyYRJHaEk?si=fv9FFzvOabWfKh44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -147,10 +142,10 @@ Using the toolkit, it will be the goal to accommodate all of the following funct
 - **Medication Room**: Room where medication is stored
 - **Janitor Closet**: Room that houses cleaning or building maintenance utilities. Could also be an "Ausguss".
 Although not always possible, try to infer as many of these functions from your reference layout. If you cannot find one of them, place them at your discretion.
->[!IMPORTANT]
+
 >**Output from this section (25 points)**: Assign all functions as described. Make a screenshot of the Control Window, and log the values of the three metrics. Make a screenshot of the layout in the Rhino view.
 
-## 3.1 Perform Design Intervention (40 points)
+### 3.1 Perform Design Intervention (40 points)
 Now that you have established the performance of the base layout, you can plan and execute the intervention.
 The goal is to improve at least **2 out of the 3 measures** while retaining the same capacity (same number of patient beds) and functions. An improvement counts as the following:
 - **ICD**: A decrease in ICD
@@ -162,10 +157,9 @@ Such changes can be achieved in two main ways:
 
 Please not directly modify the base layout. Instead, create a new layer in Rhino and make your changes there. This way, we can compare the base layout with the intervention layout.
 
->[!IMPORTANT]
 >**Output from this section (40 points)**: Conceptualize and execute a design intervention. Create a second line drawing of your intervention. Improve 2 out of 3 measures. Reflect on the intervention - did your changes translate into expected changes? What was unexpected?
 
-# 4 Presentation (10 points)
+## 4 Presentation (10 points)
 Finally, tie all your outputs together in a short (max. 5 minutes and max. 10 slides, longer presentations will incur grade penalties). In particular, the presentation should include the following:
 - A description of the layout you chose with all the additional information about the layout you were able to find (use output of 2)
 - An image of the line drawing, explaining simplifications or alterations of the layout. Present where functions are allocated in the base layout (output of 2)
@@ -173,8 +167,8 @@ Finally, tie all your outputs together in a short (max. 5 minutes and max. 10 sl
 - Present the effects of your intervention. Is such an intervention feasible? Which additional steps would you consider to test your intervention?
 - Reflect on the usefulness of these tools. Was it a new experience for you? Did you feel like they enabled or disabled your mode of designing?
 
-# 5 Come up with your performance measure (optional) (+25 points)
->[!NOTE]
+## 5 Develop your own performance measure (+25 points)
+
 >This exercise is completely optional, but will yield 25 bonus points that can increase your grade beyond this exercise.
 
 Are you interested to further delve into this topic? Armed with a bit of knowledge about Grasshopper, you can either:

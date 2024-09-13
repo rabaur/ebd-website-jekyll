@@ -4,6 +4,7 @@
     font-size: 0.75 * $base-font-size;
     font-weight: 400;
     margin-bottom: 2 * $spacing-unit;
+    line-height: normal;
   
     .no-lecture {
       background-color: var(--foreground-color-100) !important;
@@ -14,6 +15,7 @@
       display: grid;
       border-radius: $border-radius;
       grid-template-columns: auto auto 1fr 1fr auto;
+      column-gap: 1 * $spacing-unit;
       grid-template-rows: 1fr;
       grid-template-areas: "index date content lecturers buttons";
       margin-top: $spacing-unit;

@@ -5,17 +5,69 @@ body {
   font-family: $base-font-family;
   font-weight: $base-font-weight;
   font-size: $base-font-size;
+  line-height: 1.5 * $base-font-size;
 }
 
 h1 {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 1.5 * $base-font-size;
-  color: var(--primary-color)
+  color: var(--primary-color);
+  letter-spacing: 1px;
+  margin-bottom: 2 * $spacing-unit;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.5 * $base-font-size;
+  margin-top: 2 * $spacing-unit;
+  padding-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit;
+  border-bottom: var(--separator);
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 1.25 * $base-font-size;
+  margin-top: 2 * $spacing-unit;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1 * $spacing-unit;
+}
+
+blockquote {
+  margin-top: 0;
+  margin-bottom: 1 * $spacing-unit;
+  padding-left: 2 * $spacing-unit;
+  font-size: 0.9 * $base-font-size;
+  border-left: 4px solid var(--primary-color);
+}
+
+ul, ol {
+  padding-left: 4 * $spacing-unit; /* Adds indentation for the bullets */
+}
+
+em {
+  font-style: italic;
+  text-align: center;
+}
+
+strong {
+  font-weight: 600;
+}
+
+a:link {
+  color: var(--primary-color); /* Unclicked link */
+}
+
+a:visited {
+  color: var(--primary-color-dark); /* Clicked (visited) link */
 }
 
 .page-width-manager {
-  width: 50%;
+  width: calc(min(50%, 800px));
 }
 
 @media (max-width: 768px) {
@@ -59,17 +111,11 @@ h1 {
 
   h2 {
     font-weight: 400;
+    border-bottom: none;
   }
 }
 
 .about-container {
   padding-left: 2 * $spacing-unit;
   overflow:scroll
-}
-
-.page-link {
-  color: var(--primary-color);
-  font-weight: $base-font-weight;
-  text-transform: uppercase;
-  text-decoration: underline;
 }
