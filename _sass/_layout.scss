@@ -78,7 +78,7 @@ a:visited {
 
 .home {
   .top-matter {
-    height: 300px;
+    height: 330px;
     display: flex;
     flex-direction: row;
     border-bottom: var(--separator);
@@ -104,7 +104,7 @@ a:visited {
     font-size: 3 * $base-font-size;
     line-height: 3 * $base-font-size;
     font-weight: 900;
-    margin-bottom: $base-font-size;
+    margin-bottom: 0px;
   }
 
   h2 {

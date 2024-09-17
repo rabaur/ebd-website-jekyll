@@ -7,6 +7,6 @@ recording:
 slides:
 ---
 
-_Part 1_ **Talk** by Lara Gregorians
+_Part 1_ **Talk** by Christoph Hölscher
 
-_Part 2_ **Talk** by Michal Gath-Morad
+_Part 2_ **Talk** by Lara Gregorians

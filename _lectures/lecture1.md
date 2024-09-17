@@ -7,6 +7,6 @@ recording:
 slides:
 ---
 
-_Part 1_ **Lecture** Introduction.
+_Part 1_ **Lecture** Introduction by Michal Gath-Morad
 
 _Part 2_ **Talk** by Yuqin Zhong

@@ -1,32 +1,75 @@
 ---
 layout: base
 ---
+<h2>Lecturers</h2>
 {%- assign lecturers = site.lecturers | sort: "order" -%}
 {%- for lecturer in lecturers -%}
-<div class="lecturer-container">
-    {% assign image_path = "assets/images/lecturers/placeholder.jpg" %}
-    {% assign search_for_path = "assets/images/lecturers/" | append: lecturer.image %}
-    {% for file in site.static_files %}
-        {% if file.path contains search_for_path %}
-            {% assign image_path = search_for_path %}
-        {% endif %}
-    {% endfor %}
-    <img class="lecturer-image" src="{{ image_path }}" alt="{{ lecturer.name }}">
-    <div class="lecturer-content">
-        <h1>{{ lecturer.name }}</h1>
-        <div class="lecturer-institution-logo-container">
-            {% for institution-logo in lecturer.institution-logos %}
-                {% assign logo_path = "assets/images/logos/placeholder.jpg" %}
-                {% assign search_for_path = "assets/images/logos/" | append: institution-logo %}
-                {% for file in site.static_files %}
-                    {% if file.path contains search_for_path %}
-                        {% assign logo_path = search_for_path %}
-                    {% endif %}
-                {% endfor %}
-                <img class="lecturer-institution-logo" src="{{ logo_path }}" alt="{{ lecturer.name }} logo">
+    {%- if lecturer.role == "lecturer" -%}
+        <div class="lecturer-container">
+            {% assign image_path = "assets/images/lecturers/placeholder.jpg" %}
+            {% assign search_for_path = "assets/images/lecturers/" | append: lecturer.image %}
+            {% for file in site.static_files %}
+                {% if file.path contains search_for_path %}
+                    {% assign image_path = search_for_path %}
+                {% endif %}
             {% endfor %}
+            <img class="lecturer-image" src="{{ image_path }}" alt="{{ lecturer.name }}">
+            <div class="lecturer-content">
+                {% if lecturer.link %}
+                    <h1><a href="{{ lecturer.link }}" target="_blank">{{ lecturer.name }}</a></h1>
+                {% else %}
+                    <h1>{{ lecturer.name }}</h1>
+                {% endif %}
+                <div class="lecturer-institution-logo-container">
+                    {% for institution-logo in lecturer.institution-logos %}
+                        {% assign logo_path = "assets/images/logos/placeholder.jpg" %}
+                        {% assign search_for_path = "assets/images/logos/" | append: institution-logo %}
+                        {% for file in site.static_files %}
+                            {% if file.path contains search_for_path %}
+                                {% assign logo_path = search_for_path %}
+                            {% endif %}
+                        {% endfor %}
+                        <img class="lecturer-institution-logo" src="{{ logo_path }}" alt="{{ lecturer.name }} logo">
+                    {% endfor %}
+                </div>
+                <p class="lecturer-bio">{{ lecturer.content }}</p>
+            </div>
         </div>
-        <p class="lecturer-bio">{{ lecturer.content }}</p>
-    </div>
-</div>
+    {%- endif -%}
+{%- endfor -%}
+
+<h2>Teaching Assistants</h2>
+{%- for lecturer in lecturers -%}
+    {%- if lecturer.role == "teaching-assistant" -%}
+        <div class="lecturer-container">
+            {% assign image_path = "assets/images/lecturers/placeholder.jpg" %}
+            {% assign search_for_path = "assets/images/lecturers/" | append: lecturer.image %}
+            {% for file in site.static_files %}
+                {% if file.path contains search_for_path %}
+                    {% assign image_path = search_for_path %}
+                {% endif %}
+            {% endfor %}
+            <img class="lecturer-image" src="{{ image_path }}" alt="{{ lecturer.name }}">
+            <div class="lecturer-content">
+                {% if lecturer.link %}
+                    <h1><a href="{{ lecturer.link }}" target="_blank">{{ lecturer.name }}</a></h1>
+                {% else %}
+                    <h1>{{ lecturer.name }}</h1>
+                {% endif %}
+                <div class="lecturer-institution-logo-container">
+                    {% for institution-logo in lecturer.institution-logos %}
+                        {% assign logo_path = "assets/images/logos/placeholder.jpg" %}
+                        {% assign search_for_path = "assets/images/logos/" | append: institution-logo %}
+                        {% for file in site.static_files %}
+                            {% if file.path contains search_for_path %}
+                                {% assign logo_path = search_for_path %}
+                            {% endif %}
+                        {% endfor %}
+                        <img class="lecturer-institution-logo" src="{{ logo_path }}" alt="{{ lecturer.name }} logo">
+                    {% endfor %}
+                </div>
+                <p class="lecturer-bio">{{ lecturer.content }}</p>
+            </div>
+        </div>
+    {%- endif -%}
 {%- endfor -%}

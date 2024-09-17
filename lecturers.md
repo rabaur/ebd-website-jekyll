@@ -1,6 +1,6 @@
 ---
 layout: lecturers
-title: Lecturers
+title: Course Team
 ---
 
 
