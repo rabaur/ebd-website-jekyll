@@ -10,8 +10,8 @@ publish: true
 
 ## Submission Details 
 - **Group size**: Up to 4 students
-- **Submission date**: 08.05.2024, 17:59 CET
-- **Presentation date**: 08.05.2024
+- **Submission date**: 27.11.2024, 17:59 CET
+- **Presentation date**: 27.11.2024
 - **Submission materials**:
   - For all the following materials, use the naming convention of your group member's last name delimited by `_`. Example: If your group consists of _A. Einstein_, _M. Curie_ → `einstein_curie` with the appropriate file extension.
   - The `fbx` models of the **two** hospital typologies. [Upload link](https://polybox.ethz.ch/index.php/s/K5e6AvEPp5B9uCB)
