@@ -24,7 +24,7 @@ To do so, you will use the EBD-Toolkit.
 During this exercise, you can work in groups of at most **two** people.
 
 ## Submission Details 
-- **Submission date**: 17.04.2024, 17:59 CET
+- **Submission date**: 06.11.2024, 17:59 CET
 - **Submission materials**:
   - A presentation on this exercise (max. 10 slides, max. 5 minutes, exceeding this will result in grade penalty). File name: Your group member's last name delimited by `_`. Example: If your group consists of _A. Einstein_, _M. Curie_ → `einstein_curie.pdf`. [Upload link](https://polybox.ethz.ch/index.php/s/JM2OE5ScX8YzOwS)
   - The Rhino file with your base layout and intervention. [Upload Link](https://polybox.ethz.ch/index.php/s/dDhETfq4UF3IGNj)
