@@ -32,7 +32,7 @@
             {%- if lecture.no_class != true -%}
                 {%- if lecture.recording -%}
                 <div class="active">
-                    <a href="{{ lecture.recording }}">
+                    <a target="_blank" href="{{ lecture.recording }}">
                         {% include icons/recording.svg %}
                     </a>
                 </div>
@@ -43,7 +43,7 @@
                 {%- endif -%}
                 {%- if lecture.slides -%}
                 <div class="active">
-                    <a target={{ lecture.slides }}>
+                    <a target="_blank" href="{{ lecture.slides }}">
                         {% include icons/slides.svg %}
                     </a>
                 </div>
