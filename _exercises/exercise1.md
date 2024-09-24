@@ -12,7 +12,7 @@ publish: true
 - **Submission date**: 09.10.2024, 17:59 CET
 - **Submission materials**:
   - A presentation on the paper (10 slides, 5 minutes max). File name: Your group member's last name delimited by `_`. Example: If your group consists of _A. Einstein_, _M. Curie_ → `einstein_curie.pdf`. [Upload link](https://polybox.ethz.ch/index.php/f/3810299266)
-  - Evidence-based design cards. [Miro link](https://polybox.ethz.ch/index.php/s/3WihQVlWgbSG1w0)
+  - Evidence-based design cards. [Miro link](https://miro.com/app/board/uXjVLbGz45M=/?share_link_id=184588752852)
 - **Presentation date**: 09.10.2024 in class
 - **Grading**: Total of 100 points, 80 points for the presentation, 20 points for the cards. The presentation will be evaluated according to the following criteria:
   - Clarity of the presentation
