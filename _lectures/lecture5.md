@@ -4,7 +4,6 @@ topic: Introductory Lecture
 lecturers: ["Raphaël Baur", "Pan Bo", "Christoph Hölscher"]
 type: lecture
 exercise: "
-<p><strong>Submission</strong> Exercise 2.1: Installing Rhino and Grasshopper</p>
 <p><strong>Handout</strong> Exercise 2: Topological and Spatial Analysis</p>"
 recording:
 slides:
