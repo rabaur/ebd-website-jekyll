@@ -11,4 +11,4 @@ slides:
 
 _Part 1_ **Lecture** Evidence-Based Methods in Hospital Design by Michal Gath-Morad
 
-_Part 2_ **Tutorial** Topological and spatial analysis with Rhino and Grasshopper by Raphaël Baur
+_Part 2_ **Tutorial** Topological and spatial analysis with [arxitect](https://arxitect.ivia.ch/) by Raphaël Baur
