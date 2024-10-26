@@ -5,7 +5,7 @@ lecturers: ["Raphaël Baur", "Pan Bo", "Christoph Hölscher"]
 type: lecture
 exercise: "
 <p><strong>Handout</strong> Exercise 2: Topological and Spatial Analysis</p>"
-recording:
+recording: https://ethz.zoom.us/rec/share/5BhqpaqGU_0sR2nuPWUD-BGN_8IXjZPwSyTIIjqJsqaFcui6F7Lp_y-5pXdQgAs7.JTKHzCVyucrGgwD1
 slides:
 ---
 
