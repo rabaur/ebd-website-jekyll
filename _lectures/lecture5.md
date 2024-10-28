@@ -3,7 +3,7 @@ date: 2024-10-16 00:00:00
 topic: Introductory Lecture
 lecturers: ["Raphaël Baur", "Pan Bo", "Christoph Hölscher"]
 type: lecture
-recording:
+recording: https://ethz.zoom.us/rec/share/5BhqpaqGU_0sR2nuPWUD-BGN_8IXjZPwSyTIIjqJsqaFcui6F7Lp_y-5pXdQgAs7.JTKHzCVyucrGgwD1
 slides:
 ---
 
