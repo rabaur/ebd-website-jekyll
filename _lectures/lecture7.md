@@ -5,6 +5,8 @@ lecturers: ["Raphaël Baur", "Pan Bo", "Christoph Hölscher"]
 type: lecture
 recording:
 slides:
+exercise: "
+<p><strong>Handout</strong> Exercise 2: Topological and Spatial Analysis</p>"
 ---
 
 **Talk** by Ren Yee

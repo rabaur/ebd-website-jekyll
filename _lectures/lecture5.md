@@ -3,8 +3,6 @@ date: 2024-10-16 00:00:00
 topic: Introductory Lecture
 lecturers: ["Raphaël Baur", "Pan Bo", "Christoph Hölscher"]
 type: lecture
-exercise: "
-<p><strong>Handout</strong> Exercise 2: Topological and Spatial Analysis</p>"
 recording:
 slides:
 ---
