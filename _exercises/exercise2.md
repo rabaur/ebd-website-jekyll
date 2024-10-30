@@ -79,7 +79,7 @@ Opening a project will forward you to the _editor_. In the editor, you can draw 
 <img src="../assets/images/exercises/exercise2/upload_icon.png" class="inline-icon"/> The **upload** tool allows you to upload a `.json` file to `arxitect`. This will load the layout saved in the file. Please ensure that the file is a valid `.json` file.
 
 
-### 3. Steps to Complete Task 1:
+## 3. Task 1: Design Intervention
 
 1. **Find a Floorplan Typology**: Find a hospital floorplan online, including information about the architect, year of completion, and patient bed capacity.
 2. **Create a New Project**: Use the arxitect tool to create a new project.
