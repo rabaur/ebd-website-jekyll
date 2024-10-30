@@ -102,7 +102,7 @@ The goal of the report is to document your experience with `arxitect`. It should
 
 ## 5. Optional Task: Challenge (Release Date: Upcoming Days)
 
-1. **Create a New Project**: Create a project named "challenge-hs24-<your-nickname>" where `<your-nickname>` is your chosen nickname. Ensure the name starts with "challenge-hs24-" for tracking purposes.
+1. **Create a New Project**: Create a project named `challenge-hs24-your-nickname` where `your-nickname` is your chosen nickname. Ensure the name starts with "challenge-hs24-" for tracking purposes.
 2. **Download Starter Layout**: Download the provided JSON file.
 3. **Import Starter Layout**: Import the starter layout into your challenge project.
 4. **Upload Reference Image**: Download and import the provided reference image.
