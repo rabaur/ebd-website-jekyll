@@ -4,5 +4,12 @@
     img {
         width: 100%;
         height: auto;
+        border: 1px solid var(--foreground-color-300);
+    }
+
+    .inline-icon {
+        width: 1rem;
+        height: 1rem;
+        border: none
     }
 }
