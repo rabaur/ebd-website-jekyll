@@ -40,7 +40,7 @@ In this task, you will use [arxitect](https://arxitect.ivia.ch), a research prot
 ### 2.1 Registration
 Please navigate to [https://arxitect.ivia.ch](https://arxitect.ivia.ch) and click **Register**. Currently, you can only use email addresses that end with `@ethz.ch`. After confirming your email address, you will be forwarded to the home page.
 
-## 2.2 The Home Page
+### 2.2 The Home Page
 The _home page_ is a central hub for creating, accessing, and deleting sketches.
 ![The home page](../assets/images/exercises/exercise2/01-home-page-annotated.jpg)
 1. Here you can see existing projects. Click on the **title** to open it.
@@ -49,7 +49,7 @@ The _home page_ is a central hub for creating, accessing, and deleting sketches.
 4. ... then add the project by clicking "+".
 Create a project and open it.
 
-## 2.3 The Editor
+### 2.3 The Editor
 Opening a project will forward you to the _editor_. In the editor, you can draw and edit walls, and add points of interest (short, POIs) to the layout.
 ![The editor page](../assets/images/exercises/exercise2/02-editor-annotated.jpg)
 1. This is the toolbar. It contains all the relevant tools that you will use to manipulate the layout. We will outline this more in-depth in section 2.4.
@@ -58,10 +58,10 @@ Opening a project will forward you to the _editor_. In the editor, you can draw 
 4. Here we have a collection of line plots showing the progression of the metrics during the design process. If a metric cannot be computed or their computation is disabled, the line chart will be discontinuous.
 5. To get back to the home page, you can click the `arxitect` logo.
 
-## 2.4 Tools
+### 2.4 Tools
 <img src="../assets/images/exercises/exercise2/brush.png" class="inline-icon"/> The **draw** tool allows you to draw walls in the canvas. Left-click (<img src="../assets/images/exercises/exercise2/left_click.png" class="inline-icon"/>) anywhere on the canvas to start drawing a polyline. When hovering over the canvas, you will see the new wall segment drawn. Your wall segment cannot cross other walls. Your mouse will snap to other walls and points if you are close enough. Left-clicking again (<img src="../assets/images/exercises/exercise2/left_click.png" class="inline-icon"/>) will confirm the current segment. Right-clicking (<img src="../assets/images/exercises/exercise2/right_click.png" class="inline-icon"/>) will terminate the current line segment.
 
-<img src="../assets/images/exercises/exercise2/edit_mode_icon.png" class="inline-icon"/> The **select** tool allows you to select existing walls, corners, and POIs. Right-clicking and dragging (<img src="../assets/images/exercises/exercise2/drag_click.png" class="inline-icon"/>) will allow you to drag and drop your selection. You can also drag and drop corners directly without adding them to the selection first. To select multiple objects, hold `shift` when selecting items. Press `delete` to remove the current selection.
+<img src="../assets/images/exercises/exercise2/edit_mode_icon.png" class="inline-icon"/> The **select** tool allows you to select existing walls, corners, and POIs. Select any item by left-clicking (<img src="../assets/images/exercises/exercise2/left_click.png" class="inline-icon"/>) on it. Hold the `shift` while selecting to append it to the current selection. Right-clicking and dragging (<img src="../assets/images/exercises/exercise2/drag_click.png" class="inline-icon"/>) will allow you to drag and drop your selection. You can also drag and drop corners directly without adding them to the selection first. To select multiple objects, hold `shift` when selecting items. Press `delete` to remove the current selection.
 
 <img src="../assets/images/exercises/exercise2/poi_icon.png" class="inline-icon"/>The **POI** tool lets you place points of interest in the layout. Right-clicking (<img src="../assets/images/exercises/exercise2/right_click.png" class="inline-icon"/>) on the <img src="../assets/images/exercises/exercise2/edit_mode_icon.png" class="inline-icon"/> icon will unveil the different types of POIs you can place. Left-clicking (<img src="../assets/images/exercises/exercise2/left_click.png" class="inline-icon"/>) will place the POI. You can drag and drop POIs after placing them.
 
