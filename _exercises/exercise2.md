@@ -36,6 +36,8 @@ In this task, you will use [arxitect](https://arxitect.ivia.ch), a research prot
 
 **Known issues or limitations**:
 - When creating a project, there are no thumbnails. When leaving the project, the thumbnail is only updated after refresh.
+- After adding a reference length, the metrics are not recomputed. You need to add the reference length at the beginning of your design process.
+- The computation of the metrics can be slow. If it takes too long, you can disable the computation for intermediate steps. Restrict yourself to a smaller part of the layout if you face severe performance issues.
 
 ### 2.1 Registration
 Please navigate to [https://arxitect.ivia.ch](https://arxitect.ivia.ch) and click **Register**. Currently, you can only use email addresses that end with `@ethz.ch`. After confirming your email address, you will be forwarded to the home page.
