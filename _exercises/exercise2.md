@@ -32,7 +32,7 @@ In this task, you will use [arxitect](https://arxitect.ivia.ch), a research prot
 
 ## 2. `arxitect` Tutorial
 
-> `arxitect` is a research prototype, and thus there might still be bugs and issues. Please feel free to email `raphael.baur@ai.ethz.ch` if you experience problems. Also, please suggest ideas for features. We will try to resolve any issues quickly, but we will keep a log of common bugs (that cannot be fixed quickly) here. Please go through the instructions for this list before sending an email.
+> `arxitect` is a research prototype, and thus there might still be bugs and issues. Please feel free to email `raphael.baur@ai.ethz.ch` if you experience problems. Also, please suggest ideas for features. We will try to resolve any issues quickly, but we will keep a log of common bugs (that cannot be fixed quickly) here. Please go through the instructions thoroughly before sending an email. **Note that arxitect needs to be connected to the internet to save your progress. If you are offline, you can still use the tool, but you will not be able to save your progress.**
 
 **Known issues or limitations**:
 - When creating a project, there are no thumbnails. When leaving the project, the thumbnail is only updated after refresh.
