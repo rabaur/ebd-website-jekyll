@@ -8,6 +8,6 @@ recording:
 slides:
 ---
 
-_Part 1_ **Feedback** for exercise 2
+_Part 1_ **Lecture** How to design a scientific experiment? (continued)
 
 _Part 2_ **Tutorial** VR walkthrough by Raphaël Baur
