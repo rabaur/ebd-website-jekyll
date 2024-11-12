@@ -9,7 +9,7 @@ publish: true
 # Topological & Geometric Analysis of Hospital Layouts
 
 ## Submission Details
-- **Submission date**: 12.11.2024, 23:59 CET
+- **Submission date**: 13.11.2024, 18:00 CET
 - **Submission materials**:
   - A report on the exercise (at least one page, less than two pages with images). File name: Your group member's last name is delimited by `_`. Example: If your group consists of _A. Einstein_, _M. Curie_ → `einstein_curie.pdf`. [Upload link](https://polybox.ethz.ch/index.php/s/pyGGsPYep9Fko5g)
 - **Group size**: Individual assignment
