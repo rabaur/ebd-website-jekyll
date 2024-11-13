@@ -3,7 +3,7 @@ layout: exercise
 title: Exercise 3
 date:   2024-02-14 15:48:01 +0100
 categories: jekyll update
-publish: false
+publish: true
 ---
 
 # Exercise 3: Comparing Users’ Wayfinding across Hospital Typologies
@@ -14,66 +14,61 @@ publish: false
 - **Presentation date**: 27.11.2024
 - **Submission materials**:
   - For all the following materials, use the naming convention of your group member's last name delimited by `_`. Example: If your group consists of _A. Einstein_, _M. Curie_ → `einstein_curie` with the appropriate file extension.
-  - The `fbx` models of the **two** hospital typologies. [Upload link](https://polybox.ethz.ch/index.php/s/K5e6AvEPp5B9uCB)
-  - A presentation on this exercise (max. 10 slides, max. 5 minutes, exceeding this will result in grade penalty). [Upload link](https://polybox.ethz.ch/index.php/s/AQOPkxSJWzOqdUU)
-  - The `zip` compressed Unity project folder. [Upload link](https://polybox.ethz.ch/index.php/s/zz8HnGhPhMxBdIj)
+  - The `fbx` models of the **two** hospital typologies. [Upload link](https://polybox.ethz.ch/index.php/s/s8njKELCd8qdEMC)
+  - A presentation on this exercise (max. 10 slides, max. 5 minutes, exceeding this will result in grade penalty). [Upload link](https://polybox.ethz.ch/index.php/s/xpkGTZnJRRnANe2)
+  - The `zip` compressed Unity project folder. [Upload link](https://polybox.ethz.ch/index.php/s/Ak4kazIVtngM8Jc)
 
 ## Overview
 
-The **goal** of this exercise is to analyze **how** the **configuration** of different hospital typologies **affects wayfinding performance** and experience.
+This exercise is a continuation of exercise 2.
+In exercise 2, you have performed an intervention to a floorplan and evaluated it with the help of analytics.
+In this exercise, you will test how that intervention will affect human behavior in a 3D virtual walkthrough of the typologies.
+As a general guide for the exercise, please refer to the tutorial given in lecture 8.
 
-## Part 1: Generate a 3D Model for each Typology and Import it into Unity
-- Choose and model 2 hospital typologies
-- To model the layouts we will use VisualArq for Rhino.
-- A tutorial showing how to model a floor plan from an image using visualarq can be found [here](https://drive.google.com/file/d/1NVp7wVHzlMYqUnkfs7qSa9iyu5t3iO9D/view)
-- For additional VisualARQ tutorials, please visit [this link](https://www.visualarq.com/learn/videos/)
-- Export both typologies from Rhino as `fbx` files by following these steps:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XsIkjZUcI-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-# Part 2: Setting Up the VR Experiment
-
-1. Open GitHub Desktop and [pull the latest changes from the repository](https://docs.github.com/en/desktop/working-with-your-remote-repository-on-github-or-github-enterprise/syncing-your-branch-in-github-desktop#pulling-to-your-local-branch-from-the-remote). **Only follow the part "Pulling to your local branch from the remote"**.
-2. Follow step 3. from the the tutorial in the [README.md of the toolkit](https://github.com/rabaur/EBD-Toolkit/blob/main/README.md).
-3. Familiarize yourself with the toolkit and import your geometry by following the [tutorial](https://github.com/rabaur/EBD-Toolkit/blob/main/docs/virtual_walkthrough.md) for the virtual walkthrough.
-
-# Part 3: Conducting the VR Experiment
-
-1. Conduct the VR experiment with at least 3 participants per typology.
-2. Record the data and visualize it using the toolkit.
-3. Summarize the data and compare the wayfinding performance between the two typologies.
-4. Summarize your findings in a presentation (10 slides, 5 minutes max).
-
-# Legacy Tutorials
-If you prefer video tutorials, you can follow the legacy tutorials below. **However, please note that the content might be outdated.**
-
-- Create a fresh Unity project by following these steps:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YUZENcNaEMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-- Import the .fbx files (or the other format you have chosen) into the new Unity project by following these steps.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FNdLj3VyhZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-- Drag and drop the layouts into the scene and take a screenshot from the resulting scene.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uPNTZLxRLtI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Setting Up the Unity Scene
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/B8-yWv6ArTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Computing the Navigation Mesh
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Qsdqdx7_R3w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Recording and Visualizing VR-Experiment Data
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fgsnSCxzygE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Summarizing the VR-Experiment Data
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ezfUbiOHhp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## 1 Choosing Your Groups and Typologies
+- Form groups of 3 to 4 people using [this sheet](https://docs.google.com/spreadsheets/d/1zr8fpB73u7Xav52ACkJfbUrC0qmHQpRzlGYIsKvUeiU/edit?usp=sharing). Smaller groups will only be allowed by the course team in exceptional circumstances.
+- Choose 1 layout (and its corresponding intervention) from your group that you will focus on.
 
 
+## 2 Creating 3D Geometry from Line Drawings
+- Take a screenshot of the base layout and the intervention layout in [arxitect](https://arxitect.ivia.ch/home).
+- Retrace the line drawings in your favourite 3D software. Note that we will only be able to assist you if you use [Rhino 7](https://www.rhino3d.com/download/archive/rhino/7/latest/)
+- Follow the approach shown in [the lecture](https://ethz.zoom.us/rec/share/HYDx-BdTlpGVI22vkQlLpduRA_Pof-JPmg7bz_Fu4Au8xlzTCISdEmCG_Zvru1hY.uUD1DtbZ3ugkVtMZ) to properly scale your reference image, trace the lines, and create 3D walls from them.
+- After this is done, follow the approach in the lecture to make sure that your walls are double-sided (adding thickness)
+- Finally, export your geometry to fbx
 
+## 3 Importing Your 3D Geometry into Unity
+- Follow [the lecture](https://ethz.zoom.us/rec/share/HYDx-BdTlpGVI22vkQlLpduRA_Pof-JPmg7bz_Fu4Au8xlzTCISdEmCG_Zvru1hY.uUD1DtbZ3ugkVtMZ) and or [this tutorial](https://github.com/rabaur/EBD-Toolkit/tree/main) to obtain **GitHub Desktop**, **Unity 2022.3.XXX**, and the **Unity Project**.
+- Familiarize with the functionalities of the tool through [the lecture](https://ethz.zoom.us/rec/share/HYDx-BdTlpGVI22vkQlLpduRA_Pof-JPmg7bz_Fu4Au8xlzTCISdEmCG_Zvru1hY.uUD1DtbZ3ugkVtMZ).
+- Make sure that you are able to collect and visualize some data in the reference scene `VirtualWalkthrough`.
+- For more in-depth information, follow [this tutorial](https://github.com/rabaur/EBD-Toolkit/blob/main/docs/virtual_walkthrough.md)
+- Go through this checklist before continuing with your next steps:
+  - Have I imported my two layouts (the fbx files generated in step 2) into a new scene each (not the reference scene)?
+  - Is my geometry up to scale?
+  - Have I pressed "Calculate colliders" and applied the changes when importing the geometry?
+  - Have I made all items static by clicking the "static" checkbox?
+  - Have I assigned all objects to the relevant layers or created new layers if needed?
+  - Have I rebuilt and visualized the NavMesh?
+
+## 4 Coming Up With an Experiment
+- For this exercise, you will be recruiting at least 3 participants to perform the virtual walkthrough.
+- These participants can be anyone except your group members themselves. They could also be colleagues from other EBD groups.
+- Familiarize yourself with the outputs that the tool provides. What would be an interesting research question to ask in your layout? Consult [the lecture](https://ethz.zoom.us/rec/share/HYDx-BdTlpGVI22vkQlLpduRA_Pof-JPmg7bz_Fu4Au8xlzTCISdEmCG_Zvru1hY.uUD1DtbZ3ugkVtMZ) to check what the properties of a good research question are.
+- Your will perform a [within-subject](https://www.scribbr.com/methodology/within-subjects-design/) study, meaning all your participants will see both layouts. Randomize the order of experiments to combat learning effects.
+- Define a role and a task for your participant. Example:
+  - Role: A new assistant doctor on the search for a patient.
+  - Task: Start at the nurse station. The doctor needs to perform an undirected search, since it is their first working day.
+- Come up with a hypothesis regarding some measure related to your task. Example:
+  - Hypothesis: The doctors will on average take longer to find the patient room in layout 1 since the network efficiency is lower
+- Think about how you can **measure** your outcome using the tool. Example:
+  - We will use the path length and the walkthrough duration
+- **Important**: Before beginning with the experiments, send an email to *raphael.baur@ai.ethz.ch* to submit your research question / hypothesis, your role, task, and how you will measure whether your hypothesis holds or not
+- Go through this checklist before continuing with the experiments:
+  - I have recruited at least 3 participants
+  - I have received a feedback regarding my experimental design
+
+## 5 Analyzing and Visualizing the Outcomes
+- Use the various visualization tools of the toolkit to visualize "visual attention" patterns and trajectories (at least one, both only if applicable to your hypothesis)
+- Perform a statistical test on your collected outcomes. Google Sheets supports simple (and complex) statistical tests like a [t-Test](https://support.google.com/docs/answer/6055837?hl=en)
+- Feel free to use more involved statistical tests or methods if applicable
+- Summarize your findings in a presentation (10 slides, 5 minutes max).

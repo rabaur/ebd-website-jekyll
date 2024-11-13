@@ -4,7 +4,7 @@ topic: Introductory Lecture
 lecturers: ["Raphaël Baur", "Pan Bo", "Christoph Hölscher"]
 type: lecture
 exercise: "<p><strong>Submission</strong> Exercise 2: Topological and spatial Analysis</p><strong>Handout</strong> Exercise 3: Running the VR experiment</p>"
-recording:
+recording: https://ethz.zoom.us/rec/share/HYDx-BdTlpGVI22vkQlLpduRA_Pof-JPmg7bz_Fu4Au8xlzTCISdEmCG_Zvru1hY.uUD1DtbZ3ugkVtMZ
 slides:
 ---
 
