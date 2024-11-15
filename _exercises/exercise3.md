@@ -33,6 +33,7 @@ As a general guide for the exercise, please refer to the tutorial given in lectu
 ## 2 Creating 3D Geometry from Line Drawings
 - Take a screenshot of the base layout and the intervention layout in [arxitect](https://arxitect.ivia.ch/home).
 - Retrace the line drawings in your favourite 3D software. Note that we will only be able to assist you if you use [Rhino 7](https://www.rhino3d.com/download/archive/rhino/7/latest/)
+  - If you decide to use Rhino 7, we can provide you with a license. Please send an email to [bopanb@student.ethz.ch](bopanb@student.ethz.ch) with the email that is associated with your Rhino account such that we can invite you to the license pool.
 - Follow the approach shown in [the lecture](https://ethz.zoom.us/rec/share/HYDx-BdTlpGVI22vkQlLpduRA_Pof-JPmg7bz_Fu4Au8xlzTCISdEmCG_Zvru1hY.uUD1DtbZ3ugkVtMZ) to properly scale your reference image, trace the lines, and create 3D walls from them.
 - After this is done, follow the approach in the lecture to make sure that your walls are double-sided (adding thickness)
 - Finally, export your geometry to fbx
