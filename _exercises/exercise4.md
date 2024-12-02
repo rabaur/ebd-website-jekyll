@@ -32,7 +32,7 @@ The final presentation should showcase the integration of concepts from all thre
 The final project will be evaluated on:
 - **Integration and Synthesis (40%):** How effectively the three exercises are connected to provide a comprehensive design strategy.
 - **Design and Intervention Quality (30%):** Quality of the proposed design intervention and the depth of its analysis.
-- **User-Centered Analysis (20%):** Understanding of user behavior and its impact on spatial design.
+- **Critical reflection on the gains and risks associated with evidence-based design (20%):** A fter being exposed to a few evidence- and tool-based approaches to designing buildings, we are interested on your reflection on the risks and usefulness of these tools.
 - **Clarity and Presentation Skills (10%):** Clarity of communication, slide design, and engagement during the presentation.
 
 You are encouraged to be creative and use visual storytelling techniques to effectively communicate their design journey and insights. The final presentation should not only highlight what was learned but also reflect on how the exercises collectively deepen the understanding of healthcare environment design. If you conduct additional analysis using the course tools or external tools to make your project more coherent or introduce additional aspects, this will be taken into account in the grading.
