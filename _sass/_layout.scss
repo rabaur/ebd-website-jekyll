@@ -6,6 +6,7 @@ body {
   font-weight: $base-font-weight;
   font-size: $base-font-size;
   line-height: 1.5 * $base-font-size;
+  background-color: var(--primary-color-dark);
 }
 
 h1 {
@@ -68,6 +69,10 @@ a:visited {
 
 .page-width-manager {
   width: calc(min(50%, 800px));
+  background-color: var(--background-color);
+  padding-left: 3 * $spacing-unit;
+  padding-right: 3 * $spacing-unit;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 768px) {
