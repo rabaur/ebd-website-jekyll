@@ -1,11 +1,13 @@
 ---
-date: 2024-10-23 00:00:00
-topic: Introductory Lecture
-lecturers: ["Raphaël Baur", "Pan Bo", "Christoph Hölscher"]
+date: 2025-03-26 00:00:00
+topic:
+lecturers:
 type: lecture
-no_class: true
+exercise:
 recording:
 slides:
 ---
 
-no class (Seminarwoche)
+**Talk:** _Evidence-Based Design in Practice_ by Dr. Laura Narvaez Zertuche and Christian Veddeler
+
+**Panel:** with Dr. Laura Narvaez Zertuche and Christian Veddeler

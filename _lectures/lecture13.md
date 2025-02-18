@@ -1,11 +1,11 @@
 ---
-date: 2024-12-11 00:00:00
-topic: Introductory Lecture
-lecturers: ["Raphaël Baur", "Pan Bo", "Christoph Hölscher"]
+date: 2025-05-14 00:00:00
+topic:
+lecturers:
 type: lecture
-no_class: true
+exercise: <p><strong>Submission:</strong> Exercise 3</p><p><strong>Handout:</strong> Final Project</p>
 recording:
 slides:
 ---
 
-no class
+**Student Presentations:** Exercise 3

@@ -3,7 +3,7 @@ layout: exercise
 title: Exercise 2
 date:   2024-02-14 15:48:01 +0100
 categories: jekyll update
-publish: true
+publish: false
 ---
 
 # Topological & Geometric Analysis of Hospital Layouts

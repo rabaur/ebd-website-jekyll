@@ -1,11 +1,11 @@
 ---
-date: 2024-11-27 00:00:00
-topic: Introductory Lecture
-lecturers: ["Raphaël Baur", "Pan Bo", "Christoph Hölscher"]
+date: 2025-04-30 00:00:00
+topic:
+lecturers:
 type: lecture
-exercise: "<p><strong>Submission</strong> Exercise 3: Running the VR experiment</p>"
+exercise: <strong>Handout:</strong> Exercise 3
 recording:
 slides:
 ---
 
-**Feedback** for exercise 3
+**Tutorial:** _Virtual walkthrough_ by Yiqiao Wang

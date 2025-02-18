@@ -1,12 +1,13 @@
 ---
-date: 2024-10-30 00:00:00
-topic: Introductory Lecture
-lecturers: ["Raphaël Baur", "Pan Bo", "Christoph Hölscher"]
+date: 2025-04-02 00:00:00
+topic:
+lecturers:
 type: lecture
 recording:
 slides:
-exercise: "
-<p><strong>Handout</strong> Exercise 2: Topological and Spatial Analysis</p>"
+exercise: <strong>Handout:</strong> Exercise 2
 ---
 
-**Talk** by Ren Yee
+**Lecture:** _Spatial & Topological Measures in Hospital Design_ by Raphaël Baur
+
+**Tutorial:** _Spatial & Topological with [arxitect](https://arxitect.ivia.ch)_ by Raphaël Baur

@@ -3,7 +3,7 @@ layout: exercise
 title: Final Presentation
 date:   2024-02-14 15:48:01 +0100
 categories: jekyll update
-publish: true
+publish: false
 ---
 
 # Final Presentation Project: Synthesizing Design Insights

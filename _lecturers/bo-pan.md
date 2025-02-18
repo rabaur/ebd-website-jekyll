@@ -1,11 +1,11 @@
 ---
 name: Bo Pan
 image: bo-pan.jpg
-order: 3
+order: 4
 institution-logos: [ethz.svg]
 role: teaching-assistant
 ---
 
-- Teaching Assistant (General concerns)
+- Teaching Assistant
 - M.Sc. Student D-ARCH
-- [bopanb@student.ethz.ch](mailto:someone@example.com)
+- EBD Alumni

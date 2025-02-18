@@ -7,6 +7,6 @@ link: https://www.raphaelbaur.com
 role: teaching-assistant
 ---
 
-- Teaching Assistant (Technical Concerns)
-- PhD at ETH AI Center
-- [raphael.baur@ai.ethz.ch](mailto:raphael.baur@ai.ethz.ch)
+- Head Teaching Assistant
+- PhD Fellow at the ETH AI Center
+- EBD Alumni

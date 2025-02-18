@@ -1,10 +1,11 @@
 ---
-date: 2024-11-20 00:00:00
-topic: Introductory Lecture
-lecturers: ["Raphaël Baur", "Pan Bo", "Christoph Hölscher"]
+date: 2025-04-23 00:00:00
+topic:
+lecturers:
 type: lecture
 recording:
 slides:
+no_class: true
 ---
 
-**Talk** by Laura Narvaez Zertuche
+**No class:** Easter Holiday
